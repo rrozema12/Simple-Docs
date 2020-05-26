@@ -3,9 +3,9 @@ import { makeStyles, Theme, createStyles } from "@material-ui/core/styles";
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
-      padding: '2px 4px',
-      display: 'flex',
-      alignItems: 'center',
+      padding: "2px 4px",
+      display: "flex",
+      alignItems: "center",
       width: 400,
     },
     input: {
@@ -19,7 +19,24 @@ const useStyles = makeStyles((theme: Theme) =>
       height: 28,
       margin: 4,
     },
-  }),
+    jsonBox: {
+      backgroundColor: "#fff",
+    },
+    grid: {
+      width: "100%",
+      height: "100%",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+    },
+    gridItem: {
+      width: "100%",
+      height: "20%",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+    },
+  })
 );
 
 export default useStyles;

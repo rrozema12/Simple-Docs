@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./components/Header/Header";
-import Endpoint from "./components/Endpoint/Endpoint"
+import Endpoint from "./components/Endpoint/Endpoint";
 import { Box } from "@material-ui/core";
 import useStyles from "./App.styles";
 /**
@@ -13,15 +13,7 @@ function App() {
   return (
     <Box className={classes.body}>
       <Header />
-      <Box
-        width="100%"
-        height="100%"
-        display="flex"
-        alignItems="center"
-        justifyContent="center"
-      >
-        <Endpoint />
-      </Box>
+      <Endpoint />
     </Box>
   );
 }
