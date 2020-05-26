@@ -19,14 +19,11 @@ const useStyles = makeStyles((theme: Theme) =>
       height: 28,
       margin: 4,
     },
-    jsonBox: {
-      backgroundColor: "#fff",
-    },
     grid: {
       width: "100%",
       height: "100%",
       display: "flex",
-      alignItems: "center",
+      alignItems: "flex-start",
       justifyContent: "center",
     },
     gridItem: {
